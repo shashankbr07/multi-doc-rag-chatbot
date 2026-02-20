@@ -1,0 +1,133 @@
+NEXUS BANK PLC — AI & TECHNOLOGY STRATEGY WHITEPAPER
+FY2024–FY2027 | Internal Strategy Document
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. STRATEGIC VISION
+--------------------
+Nexus Bank's AI & Technology Strategy is built on three foundational pillars:
+  (a) AI-Driven Personalization — deliver hyper-personalized financial products at scale
+  (b) Operational Efficiency — automate 60% of manual processes by 2026 using AI/ML
+  (c) Risk Intelligence — deploy next-generation risk models that process real-time market signals
+
+Our goal is to become the most AI-native bank in the Asia-Pacific region by FY2027,
+reducing cost-to-income ratio to below 40% primarily through technology-driven efficiencies.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. AI & MACHINE LEARNING INITIATIVES
+--------------------------------------
+
+2.1 Credit Risk Scoring (Deployed — FY2024)
+- Model: Gradient Boosted Trees + Neural Network ensemble
+- Training data: 8 million loan records (2010–2023)
+- Performance: AUC 0.94 vs. legacy model AUC 0.81
+- Business impact: 30% reduction in default rates for new originations
+- Regulatory status: Approved by Credit Risk Committee; model risk review completed
+
+2.2 Customer Churn Prediction (Deployed — Q3 2024)
+- Algorithm: XGBoost with SHAP explainability
+- Early warning triggered for ~140,000 at-risk customers/month
+- Retention campaigns driven by model saved USD 220 million in AUM
+- Data sources: transaction patterns, product usage, call center sentiment
+
+2.3 GenAI Customer Support Agent (Deployed — Q4 2024)
+- Platform: Google Gemini API + Retrieval-Augmented Generation (RAG)
+- Knowledge base: 4,200 internal policy documents, FAQs, product manuals
+- Handled 3.2 million queries in FY2024; deflection rate 78%
+- Human escalation rate: 22%; average customer satisfaction: 4.4/5
+- Languages supported: English, Mandarin, Bahasa, Tamil
+
+2.4 Anti-Money Laundering (AML) Detection (Pilot — Q1 2025)
+- Replacing rule-based system with Graph Neural Networks (GNN)
+- Dataset: 500 million transactions/month
+- Pilot results: 65% reduction in false positives vs. rule-based system
+- Expected production deployment: Q3 2025
+
+2.5 Trade Finance Document Processing (In Development)
+- Goal: Automate 80% of Letter of Credit (LC) document verification
+- Approach: Multimodal LLM (vision + text) to parse shipping docs
+- Expected time savings: 8 hours → 15 minutes per LC transaction
+- Pilot launch: Q2 2025
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. DATA PLATFORM & INFRASTRUCTURE
+-----------------------------------
+
+3.1 Cloud Migration
+- Cloud Provider: Amazon Web Services (AWS) — primary; Azure — DR site
+- Completed migration: Core banking, data warehouse (310 TB migrated)
+- Pending: Legacy payments engine (ETA Q2 2025)
+- Cost savings achieved: USD 180 million annually vs. on-premise
+
+3.2 Data Lakehouse Architecture
+- Platform: Databricks on AWS
+- Data sources: 840 internal + 120 external (market data, macroeconomic feeds)
+- Real-time streaming: Apache Kafka — 2.4 million events/second
+- Data governance: Unity Catalog; 100% of regulated data classified and tagged
+
+3.3 MLOps Platform
+- Tools: MLflow (experiment tracking), Seldon (model serving), Great Expectations (data quality)
+- Production models: 47 models currently serving live traffic
+- Model monitoring: Automated drift detection with email + Slack alerts
+- Average model refresh cadence: 90 days
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. CYBERSECURITY & DATA PRIVACY
+---------------------------------
+- Zero Trust Architecture rolled out across 95% of the network in FY2024
+- Penetration testing: Quarterly external + monthly internal red-team exercises
+- SIEM platform: Splunk — processes 850 GB of logs/day
+- Data Privacy: Fully compliant with GDPR (EU), PDPA (Singapore), PIPL (China)
+- Data residency: All customer PII stored in-country as per local regulations
+- Bug bounty program: 120 valid vulnerabilities reported and resolved in FY2024
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. TECHNOLOGY TEAM & TALENT
+-----------------------------
+- Total tech headcount: 8,400 (up from 6,100 in FY2022)
+- Data & AI specialists: 1,200 (Data Scientists, ML Engineers, Data Engineers)
+- Open positions: 340 roles in GenAI, MLOps, and Cloud Engineering
+- Upskilling program: 4,500 employees completed AI literacy certification in FY2024
+- Partnership: Strategic MoU with Google Cloud for GenAI Co-Innovation Lab
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. FY2025 TECHNOLOGY ROADMAP
+------------------------------
+Q1 2025:
+  - Launch Real-Time Fraud Detection v2 (transformer-based model)
+  - Open Banking: 50 additional API integrations
+  - Deploy AI-assisted code review for internal dev teams
+
+Q2 2025:
+  - Trade Finance LLM pilot go-live
+  - AML GNN model production deployment
+  - Launch AI-powered investment advisory for Wealth Management clients
+
+Q3 2025:
+  - Payments engine cloud migration complete
+  - Internal GenAI productivity suite rollout (50,000 employees)
+  - Launch predictive maintenance for ATM network (IoT + ML)
+
+Q4 2025:
+  - Core banking system v2 on AWS (full cutover)
+  - AI model governance framework v2 aligned with MAS AI Governance Framework
+  - Launch cross-border payments using blockchain rail (Singapore–Hong Kong corridor)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7. BUDGET ALLOCATION
+---------------------
+Total Technology Budget FY2025: USD 2.1 billion
+
+  Cloud Infrastructure & Operations:   35%  (USD 735M)
+  AI/ML Development & Deployment:      25%  (USD 525M)
+  Cybersecurity:                        20%  (USD 420M)
+  Digital Channels (Mobile/Web):        12%  (USD 252M)
+  Legacy Modernisation:                  8%  (USD 168M)
+
+ROI Target: USD 1.5 return for every USD 1 invested in technology by FY2026.

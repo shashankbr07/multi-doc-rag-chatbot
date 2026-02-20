@@ -1,0 +1,119 @@
+ANNUAL FINANCIAL PERFORMANCE REPORT — NEXUS BANK PLC
+Fiscal Year 2024
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EXECUTIVE SUMMARY
+-----------------
+Nexus Bank PLC delivered robust financial performance in FY2024, achieving a net profit of USD 4.2 billion,
+representing a 14% year-on-year increase. The bank's total assets grew to USD 680 billion, supported
+by disciplined credit management, diversified revenue streams, and strategic digital transformation initiatives.
+
+Return on Equity (ROE) stood at 16.8%, comfortably above our internal target of 14%. Net Interest Margin (NIM)
+improved to 3.45% from 3.21% in FY2023, reflecting the benefit of a rising interest rate environment.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEGMENT PERFORMANCE
+-------------------
+
+1. Retail Banking
+   Revenue: USD 9.8 billion (+11% YoY)
+   Key drivers:
+   - Mortgage originations grew 22% to USD 48 billion
+   - Personal loan portfolio expanded to USD 32 billion (NPL ratio: 1.2%)
+   - Digital banking active users reached 18 million (up from 13.5 million in FY2023)
+   - Mobile payment transaction volume increased 67% to USD 120 billion
+
+2. Corporate & Investment Banking
+   Revenue: USD 7.1 billion (+8% YoY)
+   Key highlights:
+   - Syndicated loan market share rose to 8.4%
+   - Advisory fees from M&A transactions: USD 820 million
+   - Trade finance volume: USD 95 billion
+   - Green bond issuances facilitated: USD 12 billion
+
+3. Wealth Management
+   Revenue: USD 2.9 billion (+19% YoY)
+   - Assets under Management (AUM) reached USD 210 billion
+   - High-Net-Worth client base grew by 15,000 to 142,000
+   - Average client portfolio return: 11.3%
+
+4. Treasury & Capital Markets
+   Revenue: USD 3.4 billion
+   - Fixed income trading: USD 2.1 billion revenue
+   - Forex operations: USD 0.8 billion
+   - Equity derivatives: USD 0.5 billion
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BALANCE SHEET HIGHLIGHTS
+-------------------------
+Total Assets:               USD 680 billion
+Gross Loans and Advances:   USD 412 billion
+Customer Deposits:          USD 510 billion
+Capital Adequacy Ratio:     16.2% (Minimum regulatory requirement: 10.5%)
+Tier 1 Capital Ratio:       14.1%
+Liquidity Coverage Ratio:   138%
+Non-Performing Loan Ratio:  1.8% (Industry average: 2.5%)
+Loan-to-Deposit Ratio:      80.8%
+Cost-to-Income Ratio:       45.2%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RISK MANAGEMENT
+---------------
+Credit Risk:
+- Overall credit portfolio maintained strong quality with NPL of 1.8%
+- Provision Coverage Ratio increased to 82% from 75% in prior year
+- Sectors closely monitored: Commercial Real Estate, SME lending
+
+Market Risk:
+- Value at Risk (VaR) at 99% confidence: USD 380 million
+- Stress test results confirm buffer above regulatory minimums in all scenarios
+- Interest Rate Risk in Banking Book (IRRBB): Well within approved limits
+
+Operational Risk:
+- Zero material cybersecurity incidents reported in FY2024
+- Business Continuity plans successfully tested in Q2 2024
+- Third-party vendor risk assessments completed for 450 critical suppliers
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TECHNOLOGY & DIGITAL TRANSFORMATION
+-------------------------------------
+- Core banking system migration to cloud (AWS) completed in Q3 2024 — 30% reduction in IT operational costs
+- AI-powered credit scoring model deployed — reduced loan processing time from 72 hours to 4 hours
+- Open Banking APIs: 320 live integrations with FinTech partners
+- Cybersecurity investment: USD 420 million in FY2024
+- GenAI chatbot deployed in contact centers — handled 3.2 million customer queries, 78% deflection rate
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SUSTAINABILITY & ESG
+---------------------
+- Total green financing portfolio: USD 38 billion (target: USD 50 billion by 2026)
+- Carbon footprint reduced by 28% vs. 2021 baseline
+- Women in senior leadership: 38% (target: 45% by 2027)
+- Community investment: USD 85 million in financial literacy programs
+- MSCI ESG Rating: A (upgraded from BBB in 2023)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OUTLOOK FOR FY2025
+-------------------
+Management expects revenue growth of 8–12% in FY2025, driven by:
+- Continued loan book growth in Retail and Corporate Banking
+- Expansion of Wealth Management into Southeast Asian markets
+- Further digitization of back-office processes
+- Monetization of data & AI capabilities across all business lines
+
+Cautionary factors include potential macroeconomic slowdown, geopolitical uncertainties,
+and evolving regulatory requirements under Basel IV.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+AUDITOR'S NOTE
+--------------
+These financial statements have been prepared in accordance with International Financial Reporting
+Standards (IFRS) and have been audited by Ernst & Young LLP. The audit opinion is unqualified.
