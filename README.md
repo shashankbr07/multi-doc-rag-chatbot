@@ -11,12 +11,14 @@ A production-grade **Retrieval-Augmented Generation (RAG)** chatbot that lets yo
 | Feature | Details |
 |---|---|
 | 📂 Multi-document upload | PDF + TXT files; unlimited documents |
-| 🔍 Semantic search | Gemini `text-embedding-004` + ChromaDB vector store |
-| 💬 Conversational AI | Gemini 2.0 Flash with 6-turn memory |
-| 📌 Source citations | Answers cite which document they came from |
+| 🔍 Smart embedding detection | Auto-discovers the best available Gemini embedding model |
+| 🔎 Hybrid OCR | Text extraction via pypdf; falls back to **Gemini Vision** for scanned pages |
+| 💬 Streaming responses | Real-time typewriter-style output with full markdown rendering |
+| 📌 Source citations | Answers cite which document + chunk they came from |
 | 🔎 Context preview | Expandable retrieved chunk viewer |
 | ⬇️ Chat export | Download full conversation as Markdown |
 | 🎨 Premium dark UI | Glassmorphism design, smooth animations |
+| 🗑️ Auto-sync cleanup | Removing files from uploader auto-clears them from vector store |
 
 ---
 
@@ -29,10 +31,15 @@ User Uploads PDFs/TXTs
   Text Extraction (pypdf)
         │
         ▼
+  Scanned page? ──Yes──► Gemini Vision OCR
+        │                      │
+        No                     │
+        │◄─────────────────────┘
+        ▼
   Chunking (800 chars, 100 overlap)
         │
         ▼
-  Gemini Embeddings (text-embedding-004)
+  Gemini Embeddings (auto-detected model)
         │
         ▼
   ChromaDB Vector Store (in-memory)
@@ -43,24 +50,25 @@ User Uploads PDFs/TXTs
   Query Embedding → Top-K Retrieval
         │
         ▼
-  Gemini 2.0 Flash → Answer + Citations
+  Gemini 2.5 Flash → Streamed Answer + Citations
         │
         ▼
-  Streamlit UI — Chat + Sources
+  Streamlit Chat UI — Markdown + Sources
 ```
 
 ---
 
 ## 🚀 Quick Start (Local)
 
-### 1. Clone / download this project
+### 1. Clone this project
 ```bash
-cd /path/to/multi-doc-rag-chatbot
+git clone https://github.com/shashankbr07/multi-doc-rag-chatbot.git
+cd multi-doc-rag-chatbot
 ```
 
 ### 2. Create a virtual environment
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 ```
 
@@ -104,14 +112,17 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ```
 multi-doc-rag-chatbot/
-├── app.py              # Streamlit UI
-├── rag_engine.py       # Core RAG pipeline (embedding, retrieval, generation)
+├── app.py                  # Streamlit UI (chat, sidebar, streaming)
+├── rag_engine.py           # Core RAG pipeline (OCR, embedding, retrieval, generation)
 ├── requirements.txt
+├── runtime.txt             # Python version for Streamlit Cloud
 ├── .env.example
+├── .streamlit/
+│   └── config.toml         # Dark theme configuration
 ├── README.md
 └── sample_docs/
-    ├── nexus_bank_annual_report_2024.txt   # Demo: bank annual report
-    └── nexus_bank_ai_strategy_2025.txt     # Demo: AI strategy whitepaper
+    ├── nexus_bank_annual_report_2024.txt
+    └── nexus_bank_ai_strategy_2025.txt
 ```
 
 ---
@@ -120,12 +131,12 @@ multi-doc-rag-chatbot/
 
 | Layer | Technology |
 |---|---|
-| **LLM** | Google Gemini 2.0 Flash |
-| **Embeddings** | Google text-embedding-004 |
+| **LLM** | Google Gemini 2.5 Flash |
+| **Embeddings** | Auto-detected (gemini-embedding-001 / text-embedding-004) |
 | **Vector Store** | ChromaDB (in-memory) |
-| **PDF Parsing** | pypdf |
-| **UI** | Streamlit |
-| **Language** | Python 3.10+ |
+| **PDF Parsing** | pypdf + Gemini Vision OCR (hybrid) |
+| **UI** | Streamlit (native chat components) |
+| **Language** | Python 3.12 |
 
 ---
 
